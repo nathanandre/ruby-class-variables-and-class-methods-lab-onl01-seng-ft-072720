@@ -18,6 +18,6 @@ class Song
     @@artists.uniq 
   end
   def self.genre
-    @@artists.uniq 
+    @@genres.uniq 
   end
 end

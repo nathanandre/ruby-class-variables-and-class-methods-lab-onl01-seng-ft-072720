@@ -33,4 +33,3 @@ class Song
       end
       genre_count
     end
-    genre_count

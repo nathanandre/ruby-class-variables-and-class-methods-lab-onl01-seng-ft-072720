@@ -24,7 +24,7 @@ class Song
     genre_count = {}
     @@genres.each do |genre_name|
       if genre_hash[genre_name]
-                genre_hash[genre_name] += 2
+                genre_hash[genre_name] += 1
             else
                 genre_hash[genre_name] = 1
             end

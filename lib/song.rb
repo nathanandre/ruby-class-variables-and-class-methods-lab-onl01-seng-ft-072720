@@ -20,4 +20,14 @@ class Song
   def self.genres
     @@genres.uniq 
   end
+  def self.genre_count
+    genre_count = {}
+    @@genres.each do |genre|
+      if genre_count[genre] #exists
+        genre_count[genre] += 1
+      else #none
+        genre_count[genre] = 1
+      end
+    end
+    genre_count
 end

@@ -15,6 +15,6 @@ class Song
     @@count
   end
   def self.artists
-    @@artists
+    @@artists = artist.unique 
   end
 end
